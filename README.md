@@ -51,7 +51,7 @@ This repository contains the code for a Java-based console application simulatin
 
 - A `Session` class was implemented to keep track of current session: user, status (active or not) and date of creation. A session is instantiated at login and used throughout the code to fetch the current user. A session is killed at logout.
 
-- Each feature implementing an interactive menu is represented by a class implementing a `Menu` interface. Each Menu class, of course, overrides the interface methods: A **displayMenu()* method that displays menu and reads user input, a **validateOption()* method that controls user input and a **performAction()* method that deals with the input accordingly by provoking different methods.
+- Each feature implementing an interactive menu is represented by a class implementing a `Menu` interface. Each Menu class, of course, overrides the interface methods: A *displayMenu()* method that displays menu and reads user input, a *validateOption()* method that controls user input and a *performAction()* method that deals with the input accordingly by provoking different methods.
 
 - For the sake of code clarity, a `ClientInput` class was implemented to control every user input. Success or failure messages are displayed accordingly.
 
